@@ -1,0 +1,7 @@
+spring:
+  mvc.static-path-pattern: /images/**
+  resources.static-locations: classpath:images/,file:images/
+  application:
+    name: PicDemo
+  profiles:
+    active: dev
